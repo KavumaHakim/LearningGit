@@ -10,7 +10,7 @@
             background-size: cover;
         }
         .container {
-            position: absolute;
+            position: center;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -48,6 +48,35 @@
         .container button:hover {
             background-color: #f39c12;
         }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        footer a {
+            color: white;
+        }
+        footer a:hover {
+            color: #f1c40f;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #f1c40f;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
         </style>
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -57,20 +86,17 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">About</a></li>
-                <li><a href="services.html">Contact</a></li>
                 <li><a href="form.html">Contact</a></li>
             </ul>
         </nav>
     <div class="container">
         <h1> Our Home</h1>
-        <p>Welcome to the home page of the website. Here you can find the following pages:</p>
-        <button><a href="login.php">Login</a></button>
+        <p>Welcome to the HKcJ Technology Group<br>
+        <i>We are hiring Software developers.</i> <br>Applications are see using this form below.</p>
+        <button><a href="login.php">Application</a></button>
     </div>
 </body>
     <footer>
-     <p>Created by: <a href="jshmgb3@gmail.com">Joshua Mugabe</a></p>
-     <p>in colaboration with</p>
-     <p>Created by: <a href="hakimkavuma99@gmail.com">Kavuma Hakim</a></p>
+     <p>Created by: <a href="jshmgb3@gmail.com">Joshua Mugabe</a> and <a href="hakimkavuma99@gmail.com">Kavuma Hakim</a></p>
     </footer>
 </html>
